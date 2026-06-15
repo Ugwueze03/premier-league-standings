@@ -27,11 +27,11 @@ SELECT season, home_goal AS goal_conceded, away_goal AS goal_scored,  away_team 
 CASE WHEN home_goal > away_goal THEN 0 
 WHEN home_goal < away_goal THEN 3
 ELSE 1 END AS points,
-  --Using CASE WHEN to get away_loss--
+  --Using CASE WHEN to get away_win--
 CASE WHEN home_goal > away_goal THEN 0 
 WHEN home_goal < away_goal THEN 1
 ELSE 0 END AS win,
-  --Using CASE WHEN to get away_wins--
+  --Using CASE WHEN to get away_loss--
 CASE WHEN home_goal > away_goal THEN 1 
 WHEN home_goal < away_goal THEN 0
 ELSE 0 END AS loss,
