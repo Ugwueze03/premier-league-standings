@@ -49,10 +49,10 @@ SUM(goal_scored) AS GF,
 SUM(goal_conceded) AS GA, 
 SUM(goal_scored - goal_conceded) AS GD
 FROM(
-SELECT *
+SELECT season, team, points, win, loss, draw, goal_scored, goal_conceded
 FROM home_games
 UNION ALL
-SELECT *
+SELECT season, team, points, win, loss, draw, goal_scored, goal_conceded
 FROM away_games)
 group BY season, team
 ORDER BY season ASC, points DESC;
