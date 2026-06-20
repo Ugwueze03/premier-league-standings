@@ -1,5 +1,6 @@
 # ⚽ Premier League Standings Analysis (2023–2026)
-An end-to-end SQL and Excel project that transforms raw Premier League match results into complete end-of-season league tables for three consecutive seasons (2023/24–2025/26).
+
+##An end-to-end SQL and Excel project that transforms raw Premier League match results into complete end-of-season league tables for three consecutive seasons (2023/24–2025/26).
 ---
 ## 📌 Project Overview
 
