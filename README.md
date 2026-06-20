@@ -2,7 +2,6 @@
 An end-to-end SQL and Excel project that transforms raw Premier League match results into complete end-of-season league tables for three consecutive seasons (2023/24–2025/26).
 ---
 ##📌 Project Overview
-
 This project demonstrates how match-level football data can be aggregated into official league standings using SQL.
 Starting from raw match results, the project calculates each team's season performance—including wins, draws, losses, goals scored, goals conceded, goal difference, and points—before ranking teams to produce the final league table.
 The project showcases practical SQL techniques commonly used in data analytics, including data transformation, aggregation, conditional logic, and ranking.
